@@ -1,0 +1,72 @@
+schema: record-schema
+schema_version: 1
+
+id: SOP-00002
+series_code: SOP
+series: 2
+
+title: Futurnetic Principles
+slug: futurnetic-principles
+
+status:
+  phase: draft
+  last_updated: 2026-03-03T00:00:00Z
+  confidentiality: public
+
+links:
+  related:
+    - SOP-00001
+
+documents:
+  primary:
+    - path: SOP-00002_SOP-Futurnetic-Principles.md
+      label: Futurnetic Principles
+  log:
+    path: SOP-00002_LOG-notes.md
+    label: Log (Notes)
+  index:
+    path: SOP-00002_IND-index.md
+    label: Record Index (Table of Contents)
+
+assembly:
+  packet:
+    path: SOP-00002_SOP-Futurnetic-Principles.pdf
+    label: Futurnetic Principles
+  pack:
+    - precedence: 10
+      doc_type: IND
+      path: SOP-00002_IND-index.md
+      label: Index / Table of Contents
+      include: false
+    - precedence: 20
+      doc_type: SOP
+      path: SOP-00002_SOP-Futurnetic-Principles.md
+      label: Futurnetic Principles
+    - precedence: 120
+      doc_type: LOG
+      path: SOP-00002_LOG-notes.md
+      label: Log (Notes)
+      include: false
+
+timeline:
+  opened_at: 2026-03-03T00:00:00Z
+  drafted_at: 2026-03-03T00:00:00Z
+
+extensions:
+  formatting:
+    profile: canonical-ascii
+  language:
+    locale: en-US
+  
+  sop_registry:
+    operational_pack:
+      record_id: null
+      vote_reference: null
+      passed_tag: null
+      passed_commit: null
+      adopted_at: null
+
+authority:
+  domain: company
+  class: tertiary-instrument
+  notes: "Subject to passage within an Operational Pack, this SOP becomes a tertiary instrument of the Company Agreement."

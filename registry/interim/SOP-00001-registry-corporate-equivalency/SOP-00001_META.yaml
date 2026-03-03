@@ -1,0 +1,72 @@
+schema: record-schema
+schema_version: 1
+
+id: SOP-00001
+series_code: SOP
+series: 1
+
+title: SOP Registry and Corporate Equivalency
+slug: registry-corporate-equivalency
+
+status:
+  phase: draft
+  last_updated: 2026-03-03T00:00:00Z
+  confidentiality: public
+
+links:
+  related:
+    - SOP-00000
+
+documents:
+  primary:
+    - path: SOP-00001_SOP-Registry-and-Corporate-Equivalency.md
+      label: SOP Registry and Corporate Equivalency
+  log:
+    path: SOP-00001_LOG-notes.md
+    label: Log (Notes)
+  index:
+    path: SOP-00001_IND-index.md
+    label: Record Index (Table of Contents)
+
+assembly:
+  packet:
+    path: SOP-00001_SOP-Registry-and-Corporate-Equivalency.pdf
+    label: SOP Registry and Corporate Equivalency
+  pack:
+    - precedence: 10
+      doc_type: IND
+      path: SOP-00001_IND-index.md
+      label: Index / Table of Contents
+      include: false
+    - precedence: 20
+      doc_type: SOP
+      path: SOP-00001_SOP-Registry-and-Corporate-Equivalency.md
+      label: SOP Registry and Corporate Equivalency
+    - precedence: 120
+      doc_type: LOG
+      path: SOP-00001_LOG-notes.md
+      label: Log (Notes)
+      include: false
+
+timeline:
+  opened_at: 2026-03-03T00:00:00Z
+  drafted_at: 2026-03-03T00:00:00Z
+
+extensions:
+  formatting:
+    profile: canonical-ascii
+  language:
+    locale: en-US
+  
+  sop_registry:
+    operational_pack:
+      record_id: null
+      vote_reference: null
+      passed_tag: null
+      passed_commit: null
+      adopted_at: null
+
+authority:
+  domain: company
+  class: tertiary-instrument
+  notes: "Subject to passage within an Operational Pack, this SOP becomes a tertiary instrument of the Company Agreement."
