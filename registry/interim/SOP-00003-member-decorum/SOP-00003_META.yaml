@@ -5,12 +5,24 @@ id: SOP-00003
 series_code: SOP
 series: 3
 
+entity_name: "SOLOMON DAO LLC"
+version: "1.0.1"
+
+entity:
+  legal_name: "SOLOMON DAO LLC"
+  short_name: "SOLOMON"
+
+document:
+  version: "1.0.1"
+  document_id: "SOP-00001"
+  effective_date: "2026-03-05"
+
 title: Member Decorum and Communications
 slug: member-decorum
 
 status:
   phase: draft
-  last_updated: 2026-03-03T00:00:00Z
+  last_updated: 2026-03-05T00:00:00Z
   confidentiality: public
 
 links:
@@ -43,6 +55,7 @@ assembly:
       doc_type: SOP
       path: SOP-00003_SOP-Member-Decorum-and-Communications.md
       label: Member Decorum and Communications
+      short_label: "SOP-00003: MEMBER DECORUM AND COMMUNICATIONS"
     - precedence: 120
       doc_type: LOG
       path: SOP-00003_LOG-notes.md
@@ -50,8 +63,8 @@ assembly:
       include: false
 
 timeline:
-  opened_at: 2026-03-03T00:00:00Z
-  drafted_at: 2026-03-03T00:00:00Z
+  opened_at: 2026-03-05T00:00:00Z
+  drafted_at: 2026-03-05T00:00:00Z
 
 extensions:
   formatting:
