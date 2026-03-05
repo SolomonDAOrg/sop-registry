@@ -1,5 +1,14 @@
 # SOLOMON DAO LLC - SOP Registry
 
+## Looking for compiled PDFs?
+
+If you want a ready-to-read compiled artefact (PDF) of a proposal packet
+(or other governance documents), use the **compiled-documents** mirror repo:
+
+- [https://github.com/SolomonDAOrg/compiled-documents](https://github.com/SolomonDAOrg/compiled-documents)
+
+---
+
 This repository is the canonical source for current ratified versions of
 governance instruments maintained by SOLOMON DAO LLC (the "DAO"), a Marshall
 Islands DAO LLC organized under the Decentralized Autonomous Organizations
