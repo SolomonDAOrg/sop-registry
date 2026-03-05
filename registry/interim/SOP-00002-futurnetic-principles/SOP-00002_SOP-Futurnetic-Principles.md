@@ -37,24 +37,42 @@ Licensee, counterparty, service provider, or other person. Any external
 obligations arise only under the applicable License or other written
 agreement, and only to the extent expressly stated there.
 
+**Implementation perimeter.** This SOP is about Company-side stewardship of
+Protocol IP (governance posture, control discipline, and internal
+accountability for persons exercising authority under the Company
+Agreement). It is not an operating manual for any implementation and does
+not prescribe how any Licensee (or other third party) must build, deploy,
+run, or supervise an implementation. Protocol Implementations and
+implementation operations are out of scope.
+
 ---
 
 ## 1. Purpose and perimeter
 
-These principles make explicit-publicly-the governance and operational
-posture used to steward Protocol IP.
+These principles bind only persons exercising authority under the Company
+Agreement when acting for the Company. They are intentionally
+implementation-agnostic and do not set requirements for any Licensee
+operations unless a specific provision is expressly incorporated by
+reference into a separate written agreement.
 
-This SOP adopts a **Futurnetic** framework: a "pragmatic system of
-decentralized governance" in which Members govern the Company through the
-Futarchic Mechanism (Futarchy), while cybernetic principles govern day-to-day
+These principles make explicit (publicly) the Company-side governance and
+operational posture used to steward Protocol IP. The intent is not to be
+pessimistic or to micromanage -- it is to run a professionally governed DAO
+with repeatable controls, clear accountability, and high-signal decision-
+making that others can look to and reuse.
+
+This SOP adopts a **Futurnetic** framework: a **"pragmatic system of
+decentralized governance"** in which Members govern the Company through the
+Futarchic Mechanism (Futarchy), while Cybernetic principles govern day-to-day
 operations, control loops, and execution discipline for the Head Steward,
 Subcommittees, and other persons exercising authority under
 the Company Agreement.
 
 The purpose is to make the DAO's operating philosophy explicit as part
 of the Compliance Manual so it can be referenced by governance, audits,
-and Operational Packs, rather than existing as a private or implied
-"rulebook inside a license."
+and Operational Packs, and to set a consistent, professional standard for
+Company-side stewardship of Protocol IP. It is not a hidden "rulebook"
+for Licensee operations or implementation operations.
 
 **Futarchy attribution and role.**
 The Company's governance system uses futarchy-based governance
@@ -73,7 +91,7 @@ over the futarchy smart contracts.
 ### Perimeter / Non-reliance (important)
 
 1. This SOP is an internal governance and contracting artefact. It is
-   **not** user-facing terms, an assurance report, a security certification,
+   not user-facing terms, an assurance report, a security certification,
    or professional advice.
 
 2. Nothing in this SOP is intended to create or expand any fiduciary duty,
@@ -90,16 +108,21 @@ over the futarchy smart contracts.
    License granted under it, or (iv) any repository LICENSE. If there is a
    conflict, higher-precedence instruments and executed agreements control.
 
+5. This SOP does not describe, certify, or govern any Production
+   Implementation or implementation operations (including software
+   deployments, services, custody, trading, infrastructure, operational
+   methods, or business processes) of any Licensee or other third party.
+
 ---
 
 ## 2. Principles (normative)
 
-### (a) Futarchic governance, cybernetic operations
+### (a) Futarchic governance, Cybernetic operations
 
 Members govern the Company through the Governance System
 (including Futarchy) by adopting or rejecting proposals and Resolutions.
 Day-to-day execution, risk handling, and operational adaptation are
-governed by cybernetic principles applied within the authority limits
+governed by Cybernetic principles applied within the authority limits
 set by the Company Agreement, the Founding Charter, and valid Resolutions.
 
 ### (b) Purpose through function
@@ -132,8 +155,8 @@ time-bounded, scoped access; continuously review access.
 
 ### (g) Compartmentalization
 
-Design isolation boundaries to limit blast radius (keys, services,
-deploy pipelines, operational roles, and on-chain authorities). 
+Design isolation boundaries to limit blast radius (keys, services, release
+pipelines, roles, and on-chain authorities). 
 
 ### (h) Holistic integration
 
@@ -208,8 +231,8 @@ without creating an accountability gap.
 ### (t) Two-person integrity for high-risk actions
 
 For actions with significant blast radius (keys, on-chain authorities,
-treasury-adjacent permissions, production releases), require a second
-independent reviewer/sign-off within scope.
+treasury-adjacent permissions, and Protocol IP releases (e.g., repository
+releases)), require a second independent reviewer/sign-off within scope.
 
 ### (u) Decision hygiene
 
@@ -259,33 +282,35 @@ practiced recovery.
 ## 3. Binding effect and enforcement (internal)
 
 1. This SOP is a **Tertiary Instrument**. It supports mandates but cannot
-override Primary or Secondary Instruments or expand custody/economic
-authority (Operating Agreement §6.5(4); Founding Charter §8.4).
+   override Primary or Secondary Instruments or expand custody/economic
+   authority (Operating Agreement §6.5(4); Founding Charter §8.4).
 
 2. Pending ratification, interim adoption is guidance only and does not
-expand the authority of any person or Subcommittee
-(Operating Agreement §6.5(4)). Interim SOPs set operational expectations
-for persons exercising authority under the Company Agreement, within the
-scope of existing authority granted by the Primary Instruments (Founding
-Charter §8.2). For licensees and counterparties, binding effect arises only
-to the extent their agreements incorporate these principles.
+   expand the authority of any person or Subcommittee
+   (Operating Agreement §6.5(4)). Interim SOPs set operational expectations
+   for persons exercising authority under the Company Agreement, within the
+   scope of existing authority granted by the Primary Instruments (Founding
+   Charter §8.2). For licensees and counterparties, binding effect arises only
+   to the extent their agreements incorporate these principles.
 
 3. Non-compliance with ratified SOPs by persons exercising authority within
-scope may constitute grounds for existing remedies under the Company
-Agreement, including reporting to Members, recommending corrective
-Resolution, or exercising emergency action under
-Operating Agreement §10.4(2) where applicable. For Licensees, binding effect
-(if any) arises only where and to the extent a specific provision of this
-SOP is expressly incorporated into the applicable License or related
-written agreement. Any consequence of non-compliance in that case is a
-contractual licensing remedy affecting permission to use Protocol IP only,
-and does not create any right or duty for the Company, the Head Steward,
-or any Subcommittee to direct, supervise, or control the Licensee's
-operations.
+   scope may constitute grounds for existing remedies under the Company
+   Agreement, including reporting to Members, recommending corrective
+   Resolution, or exercising emergency action under Operating Agreement
+   §10.4(2) where applicable. For Licensees, binding effect (if any) arises
+   only where and to the extent a specific provision of this SOP is expressly
+   incorporated into the applicable License or related written agreement. Any
+   consequence of non-compliance in that case is a contractual licensing
+   remedy affecting permission to use Protocol IP only, and does not create
+   any right or duty for the Company, the Head Steward, or any Subcommittee
+   to direct, supervise, or control the Licensee's operations.
+   For avoidance of doubt, nothing in this SOP makes the Company a reviewer,
+   auditor, operator, controller, or supervisor of any Licensee
+   implementation.
 
-4. This SOP does **not** create new Member duties. It is an internal
-control system for persons exercising authority and for counterparties
-bound by their own agreements.
+4. This SOP does not create new Member duties. It is an internal
+   control system for persons exercising authority and for counterparties
+   bound by their own agreements.
 
 Nothing in this SOP creates or implies any agency, partnership, joint
 venture, employment, fiduciary, or supervisory relationship between the

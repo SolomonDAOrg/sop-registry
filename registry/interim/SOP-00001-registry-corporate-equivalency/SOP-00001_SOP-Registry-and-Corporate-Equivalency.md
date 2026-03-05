@@ -31,6 +31,10 @@ defined in the Company Agreement of SOLOMON DAO LLC
 and other intellectual property. It does not mean an operating business,
 service, issuer, custodian, counterparty, or other person or entity.
 
+This SOP is an internal governance and recordkeeping instrument only. It
+does not describe, certify, or govern any Licensee's independent operations
+or any Implementation / production system.
+
 Nothing in this SOP authorizes the Company, the Head Steward, or any
 Subcommittee to direct, supervise, or control the operations of any
 Licensee, counterparty, service provider, or other person. Any external
@@ -52,6 +56,10 @@ Company Agreement.
 The intent is to make explicit that the DAO operates a conventional corporate
 governance playbook -- with on-chain execution and cryptographic recordkeeping
 as the implementation layer.
+
+This is not bureaucracy for its own sake. The objective is a professionally
+run DAO with repeatable controls that reduce ambiguity, increase signal
+quality, and set a standard others can look to and reuse.
 
 ### 1.2 Registry scope
 
@@ -83,40 +91,40 @@ Terms defined in the Operating Agreement have the same meaning in this SOP
 unless otherwise specified.
 
 - **SOP / Standard Operating Procedure.** A documented operational or
-    security procedure governing routine activities, controls, or response
-    processes (Operating Agreement §2.1(23)).
+  security procedure governing routine activities, controls, or response
+  processes (Operating Agreement §2.1(23)).
 
 - **Operational Pack.** A periodic governance proposal that ratifies a batch
-    of Tertiary Instruments, including their hashes or content identifiers and
-    effective date (Operating Agreement §2.1(24)).
+  of Tertiary Instruments, including their hashes or content identifiers and
+  effective date (Operating Agreement §2.1(24)).
 
 - **Living instrument (current copy).** A convenience publication of the
-    current operative text of a ratified governance instrument as of the
-    latest effective change. A living instrument does not override the
-    adopting Resolution or the underlying Primary or Secondary Instrument.
+  current operative text of a ratified governance instrument as of the
+  latest effective change. A living instrument does not override the
+  adopting Resolution or the underlying Primary or Secondary Instrument.
 
 - **Registry entry.** A record in the SOP Registry for an instrument, which
-    may be full text, redacted, or hash-only. At minimum it includes
-    identifier, title, status, scope, effective date, and (where applicable)
-    hash/CID.
+  may be full text, redacted, or hash-only. At minimum it includes
+  identifier, title, status, scope, effective date, and (where applicable)
+  hash/CID.
 
 - **Hash-only entry.** A registry entry that publishes only metadata and
-    hash/CID for a confidential instrument, with ratification referencing
-    the hash/CID.
+  hash/CID for a confidential instrument, with ratification referencing
+  the hash/CID.
 
 ### 2.2 Document hierarchy
 
 The Company Agreement comprises:
 
 - **Primary Instruments:** the Operating Agreement, the Founding Charter,
-    and the IP License Framework.
+  and the IP License Framework.
 - **Secondary Instruments:** the Smart Contract Registry, Website Registry,
-    Intellectual Property Registry, IP License & Assignment Register, and
-    the Counterparty Agreements Register.
+  Intellectual Property Registry, IP License & Assignment Register, and
+  the Counterparty Agreements Register.
 - **Tertiary Instruments:** the SOP: Order of Business for Operational
-    Packs, and this SOP Registry (including its contents).
+  Packs, and this SOP Registry (including its contents).
 - **Proposal Memoranda:** governance proposal documents maintained in the
-    proposal repository, for transparency and best practice only.
+  proposal repository, for transparency and best practice only.
 
 In the event of conflict, the order of precedence established in Operating
 Agreement §2.2(1) applies:
@@ -150,17 +158,17 @@ Section 3.)
 ### 3.1 Binding effect
 
 - **Interim SOPs** may be adopted or amended by the Head Steward or by
-    Subcommittees acting within their existing authority (Founding Charter
-    §8.2; Operating Agreement §6.5(4)). Pending ratification, interim
-    SOPs are guidance only and do not expand the authority of any person
-    or Subcommittee (Operating Agreement §6.5(4)). Interim SOPs set
-    operational expectations for the Head Steward, Subcommittee Members,
-    and persons exercising authority under the Company Agreement, within
-    the scope of existing authority granted by the Primary Instruments.
+  Subcommittees acting within their existing authority (Founding Charter
+  §8.2; Operating Agreement §6.5(4)). Pending ratification, interim
+  SOPs are guidance only and do not expand the authority of any person
+  or Subcommittee (Operating Agreement §6.5(4)). Interim SOPs set
+  operational expectations for the Head Steward, Subcommittee Members,
+  and persons exercising authority under the Company Agreement, within
+  the scope of existing authority granted by the Primary Instruments.
 
 - **Ratified SOPs** (via an Operational Pack adopted by Resolution) are
-    binding Tertiary Instruments for all persons exercising authority
-    within scope, subject to the hierarchy in Section 2.2 above.
+  binding Tertiary Instruments for all persons exercising authority
+  within scope, subject to the hierarchy in Section 2.2 above.
 
 ### 3.2 Non-compliance and contractual incorporation limits
 
@@ -191,8 +199,8 @@ authority under the Company Agreement and a publication and integrity
 framework for instruments that may be referenced by separate agreements.
 
 Nothing in this SOP creates or implies any partnership, joint venture
- employment, fiduciary, or agency relationship between the Company and
- any Licensee, counterparty, or other person.
+employment, fiduciary, or agency relationship between the Company and
+any Licensee, counterparty, or other person.
 
 ### 3.3 Licensee perimeter and no-agency clarification
 
@@ -209,13 +217,14 @@ supervision, or control of the Licensee's business or any Implementation.
 
 No inference of Company direction, control, approval, supervision, agency,
 partnership, fiduciary status, or intermediary role may be drawn from:
+
 1. the existence of this SOP Registry;
 2. the existence or content of any SOP;
 3. the incorporation of any SOP provision into a License;
 4. similarities or differences between SOP-incorporation terms across
-Licenses; or
+   Licenses; or
 5. the Company's exercise of revocation, narrowing, suspension, or
-reassignment rights under the IP License Framework.
+   reassignment rights under the IP License Framework.
 
 Nothing in this SOP creates any duty for the Company, the Head Steward,
 or any Subcommittee to monitor, police, investigate, supervise, or control
@@ -225,7 +234,9 @@ any Licensee or any Implementation.
 
 ## 4. Corporate equivalency mapping
 
-DAO tooling is unfamiliar; the governance substance is conventional.
+DAO tooling is unfamiliar; the governance substance is conventional. We adopt
+conventional governance discipline so the Company is legible, auditable, and can
+lead by example.
 
 | Traditional corporate artefact | DAO / Company Agreement equivalent |
 | --- | --- |
@@ -248,10 +259,10 @@ DAO tooling is unfamiliar; the governance substance is conventional.
 
 ### 5.1 Canonical locations
 
-The **proposal repository** is the canonical historical record for proposal
+The proposal repository is the canonical historical record for proposal
 history, drafts, discussion context, and execution artefacts.
 
-The **SOP Registry repository** is the canonical source for the current
+The SOP Registry repository is the canonical source for the current
 ratified versions of living instruments and Tertiary Instruments.
 
 The current canonical locations are recorded in SOP-00000 Section 9 and may
@@ -277,15 +288,15 @@ Each SOP must include:
 - **Effective date** (or "upon ratification").
 - **Applies to** (which persons exercising authority it binds).
 - **Confidentiality classification:** Public, Redacted + Hash, or
-    Confidential + Hash.
+  Confidential + Hash.
 - **Supersedes** (if any).
 - **Hash/CID** (if referenced in an Operational Pack).
 - **External applicability (if any):** Internal-only, or
-"Contractual incorporation only" (with agreement/register reference).
-- **Relationship boundary statement (required if external applicability
-is not Internal-only):** A statement that the SOP sets Company-side
-governance controls and/or Protocol IP standards only, and does not
-direct, supervise, or control external operations or create agency.
+  "Contractual incorporation only" (with agreement/register reference).
+- **Relationship boundary statement:** (required if external applicability
+  is not Internal-only) A statement that the SOP sets Company-side
+  governance controls and/or Protocol IP standards only, and does not
+  direct, supervise, or control external operations or create agency.
 
 ---
 

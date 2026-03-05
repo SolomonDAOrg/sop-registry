@@ -83,4 +83,9 @@ extensions:
 authority:
   domain: company
   class: tertiary-instrument
-  notes: "Subject to passage within an Operational Pack, this SOP becomes a tertiary instrument of the Company Agreement."
+  notes: >
+    Tertiary Instrument. May be adopted/interpreted on an interim basis only
+    within existing authority; pending ratification via Resolution /
+    Operational Pack it is guidance-only and does not expand authority.
+    Once ratified, binding within scope and subject to
+    objection/supersession/repeal by Resolution.
