@@ -44,6 +44,8 @@ assembly:
   packet:
     path: SOP-00001_SOP-Registry-and-Corporate-Equivalency.pdf
     label: SOP Registry and Corporate Equivalency
+    dust_cover:
+      path: SOP-00001_COV.svg
   pack:
     - precedence: 10
       doc_type: IND
