@@ -44,6 +44,8 @@ assembly:
   packet:
     path: SOP-00002_SOP-Futurnetic-Principles.pdf
     label: Futurnetic Principles
+    dust_cover:
+      path: SOP-00002_COV.svg
   pack:
     - precedence: 10
       doc_type: IND
